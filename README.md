@@ -23,7 +23,7 @@ Regression analysis of wine prices
 
 ### As with every project, my first step was to load the CSV file into a dataset and do some preliminary EDA. My initial observations showed the following:
 
-[https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.10.05%20PM.png]
+['df.info](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.10.05%20PM.png)
 
 ### I noticed that there are few columns with missing values. '''df.isna().sum() shows the following:
 ### Off the bat, designation, region_1 and region_2 have way too many null values and taster_name or twitter_handle isn't relevant to the price of our wines drop these columns. After this I used '''df.dropna()''' to drop remaining null values. This leaves me with the following features to explore: country, description. winery, points, province, title, and variety. My approach was to tackle each categorical value first:
