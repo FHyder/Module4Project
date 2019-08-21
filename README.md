@@ -38,12 +38,12 @@
 ### First I observed the distribution of our three continous features: price, score, and points: 
 ### Price has some outliers so I edited the set to only include prices <= 100. This fixed the distribution up. The score and points distributions didn't need help after that. 
 
-![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.57%20PM.png)
-###### price distribution
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.11.48%20PM.png
+###### price distribution)
 
 
 
-![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.57%20PM.png)
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.11.57%20PM.png)
 ###### price distribution <=100
 
 
