@@ -68,7 +68,7 @@
 
 ### The metric I used to measure how well my models are doing are mean squared errors. In total I built 12 models: Multiple regression model, XGB Regression Model, 8 2-layer networks followed by 2 three layered networks to see if adding layers resulted in an improved MSE. I also monitored the training MSE for all of my models to assure that my models did not over/underfit. Here are my results:
 
-https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-16%20at%2012.56.36%20AM.png
+![https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-16%20at%2012.56.36%20AM.png]
 
 ### My XGB Regression model performed the best with an MSE of 193.26, to demonstrate my model performance I presented a live simulation:
 
