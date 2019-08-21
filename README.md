@@ -38,31 +38,31 @@
 ### First I observed the distribution of our three continous features: price, score, and points: 
 ### Price has some outliers so I edited the set to only include prices <= 100. This fixed the distribution up. The score and points distributions didn't need help after that. 
 
-[https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.57%20PM.png]
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.57%20PM.png)
 ###### price distribution
 
 
 
-[https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.57%20PM.png]
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.57%20PM.png)
 ###### price distribution <=100
 
 
-[https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.04%20PM.png]
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.04%20PM.png)
 ###### points
 
-[https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.11%20PM.png]
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.11%20PM.png)
 ###### scores
 
 
 ### Next I checked for multicollinearity issues by printing a correlation matrix and comparing scatter plots, didn't find any strong correlations, kept my features.
 
-[https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.28%20PM.png]
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.28%20PM.png)
 
-[https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.41%20PM.png]
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.41%20PM.png)
 
-[https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.47%20PM.png]
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.47%20PM.png)
 
-[https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.57%20PM.png]
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.12.57%20PM.png)
 
 ## NOW TIME TO MODEL
 
@@ -92,7 +92,7 @@ https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-16%
 ```prices```
 
 
-[https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.54.50%20PM.png]
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.54.50%20PM.png)
 
 
 ```N = 10```
@@ -113,6 +113,6 @@ https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-16%
 ```plt.show()```
 
 
-[(https://raw.githubusercontent.com/FHyder/Module4Project/master/Screen%20Shot%202019-08-16%20at%2012.56.36%20AM.png)]
+![](https://raw.githubusercontent.com/FHyder/Module4Project/master/Screen%20Shot%202019-08-16%20at%2012.56.36%20AM.png)
 
 ###  I think having access to the vintage of these wines would have improved my model performance and maybe some more experimentation with tuning paramaters for each of my models. My best model predicted price with an average error of 13 dollars. Considering that this error was calculated across 98,057 observation, I'd say it performed quite well.
