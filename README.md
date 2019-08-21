@@ -1,5 +1,3 @@
-# Module4Project
-Regression analysis of wine prices
 
 
 ### Module 4! Took a long time to get here but boy am I glad to have made it this far! For our penultimate project we were given the freedom to choose our own dataset to complete our project. I am a HUGE wine enthusiast. My love for wine resulted from my several years spent waiting tables at Italian restaurants. No pasta is complete without a good glass of wine. However, it can't be just any type of wine. Each dish has it's wine-pair made in heaven and the more you learn about wine the higher your likelihood of achieving the perfect amalgamation of flavors in your mouth. That's why, when I found this dataset I knew I had to jump on this opportunity to learn more about my favorite drink. In this project, I will attempt to build a model that can accurately predict the price of wine based a a set number of features available in this dataset. This dataset is available on kaggle and lifted from the 8/2017 issue of Wine Enthusiast Magazine.
@@ -23,7 +21,7 @@ Regression analysis of wine prices
 
 ### As with every project, my first step was to load the CSV file into a dataset and do some preliminary EDA. My initial observations showed the following:
 
-['df.info](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.10.05%20PM.png)
+[](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-20%20at%207.10.05%20PM.png)
 
 ### I noticed that there are few columns with missing values. '''df.isna().sum() shows the following:
 ### Off the bat, designation, region_1 and region_2 have way too many null values and taster_name or twitter_handle isn't relevant to the price of our wines drop these columns. After this I used '''df.dropna()''' to drop remaining null values. This leaves me with the following features to explore: country, description. winery, points, province, title, and variety. My approach was to tackle each categorical value first:
