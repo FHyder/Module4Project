@@ -68,7 +68,7 @@
 
 ### The metric I used to measure how well my models are doing are mean squared errors. In total I built 12 models: Multiple regression model, XGB Regression Model, 8 2-layer networks followed by 2 three layered networks to see if adding layers resulted in an improved MSE. I also monitored the training MSE for all of my models to assure that my models did not over/underfit. Here are my results:
 
-![https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-16%20at%2012.56.36%20AM.png]
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-16%20at%2012.56.36%20AM.png)
 
 ### My XGB Regression model performed the best with an MSE of 193.26, to demonstrate my model performance I presented a live simulation:
 
@@ -113,6 +113,6 @@
 ```plt.show()```
 
 
-![](https://raw.githubusercontent.com/FHyder/Module4Project/master/Screen%20Shot%202019-08-16%20at%2012.56.36%20AM.png)
+![](https://github.com/FHyder/Module4Project/blob/master/Screen%20Shot%202019-08-15%20at%204.52.06%20PM.png)
 
 ###  I think having access to the vintage of these wines would have improved my model performance and maybe some more experimentation with tuning paramaters for each of my models. My best model predicted price with an average error of 13 dollars. Considering that this error was calculated across 98,057 observation, I'd say it performed quite well.
